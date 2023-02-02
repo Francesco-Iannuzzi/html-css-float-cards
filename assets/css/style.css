@@ -39,7 +39,7 @@ margin-bottom: 50px;
 }
 
 .subtittle > p {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     text-align: center;
     color: var(--mot-subtittle);
 }
@@ -55,10 +55,10 @@ margin-bottom: 50px;
 .col {
     height: 100%;
     float: left;
-    width: calc(100% / 3 - 90px);
+    width: calc(100% / 3 - 40px);
     display: inline-block;
     background-color: var(--mot-bg_members);
-    margin: 30px;
+    margin: 0 20px;
 }
 
 .name {
@@ -69,7 +69,6 @@ margin-bottom: 50px;
 .job {
     font-size: 1.25rem;
     color: var(--mot-job);
-    display: block;
 }
 
 .email {
