@@ -38,7 +38,7 @@ body{
 /* main */
 
 .container {
-    width: 90%;
+    width: 70%;
     margin: auto;
 }
 
@@ -65,9 +65,9 @@ margin-bottom: 50px;
 .col {
     height: 100%;
     float: left;
-    width: calc(100% / 3 - 20px);
+    width: calc(100% / 3 - 40px);
     background-color: var(--mot-bg_members);
-    margin: 0 10px;
+    margin: 0 20px;
     box-shadow: 10px 10px 25px grey;
 }
 
@@ -100,7 +100,7 @@ img {
 }
 
 .name {
-    font-size: 1rem;
+    font-size: 1.25rem;
     color: var(--mot-name);
     display: inline-block;
     width: 100%;
@@ -108,13 +108,13 @@ img {
 }
 
 .job {
-    font-size: 0.75rem;
+    font-size: 0.8rem;
     color: var(--mot-job);
     display: inline-block;
 }
 
 .email {
-    font-size: 0.75rem;
+    font-size: 0.8rem;
     color: var(--mot-email);
     text-decoration: none;
     display: inline-block;
