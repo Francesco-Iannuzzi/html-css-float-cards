@@ -11,7 +11,8 @@
     --mot-subtittle: #1a1a22;
     --mot-name: #fffff9;
     --mot-job: #fdf6e8;
-    --mot-mail: #4fb6ca;
+    --mot-email: #4fb6ca;
+    --mot-bg_members: #0f0e17;
 }
 
 /* header */
@@ -30,12 +31,49 @@
 /* main */
 
 .container {
-    width: 60%;
+    width: 70%;
     margin: auto;
+}
+.subtittle {
+margin-bottom: 50px;
 }
 
 .subtittle > p {
     font-size: 1.25rem;
     text-align: center;
     color: var(--mot-subtittle);
+}
+
+/* members */
+
+.members::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col {
+    height: 100%;
+    float: left;
+    width: calc(100% / 3 - 90px);
+    display: inline-block;
+    background-color: var(--mot-bg_members);
+    margin: 30px;
+}
+
+.name {
+    font-size: 1.75rem;
+    color: var(--mot-name);
+}
+
+.job {
+    font-size: 1.25rem;
+    color: var(--mot-job);
+    display: block;
+}
+
+.email {
+    font-size: 1.25rem;
+    color: var(--mot-email);
+    text-decoration: none;
 }
