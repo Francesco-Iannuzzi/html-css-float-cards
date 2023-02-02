@@ -68,6 +68,7 @@ margin-bottom: 50px;
     width: calc(100% / 3 - 40px);
     background-color: var(--mot-bg_members);
     margin: 0 20px;
+    box-shadow: 10px 10px 25px grey;
 }
 
 .col::after {
