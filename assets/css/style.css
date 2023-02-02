@@ -4,3 +4,11 @@
     box-sizing: border-box;
 }
 
+:root {
+    --mot-bg: #fffffe;
+    --mot-tittle: #e53170;
+    --mot-subtittle: #1a1a22;
+    --mot-name: #fffff9;
+    --mot-job: #fdf6e8;
+    --mot-mail: #4fb6ca;
+}
