@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+/* utilities */
 :root {
     --mot-bg: #fffffe;
     --mot-tittle: #e53170;
@@ -11,4 +12,30 @@
     --mot-name: #fffff9;
     --mot-job: #fdf6e8;
     --mot-mail: #4fb6ca;
+}
+
+/* header */
+.app_header {
+    height: 100px;
+    margin-bottom: 80px;
+}
+
+.app_header > h1 {
+    font-size: 3rem;
+    color: var(--mot-tittle);
+    text-align: center;
+    padding-top: 50px;
+}
+
+/* main */
+
+.container {
+    width: 60%;
+    margin: auto;
+}
+
+.subtittle > p {
+    font-size: 1.25rem;
+    text-align: center;
+    color: var(--mot-subtittle);
 }
