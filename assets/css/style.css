@@ -77,22 +77,18 @@ margin-bottom: 50px;
     clear: both;
 }
 
-/* .side {
-    width: calc(100% / 2);
-} */
 
 .left {
     float: left;
     width: 30%;
-    height: 100%;
 }
 
 .right {
     float: right;
     width: 70%;
     padding-left: 15px;
-    margin-top: 12px;
-    margin-bottom: 12px;
+    padding-top: 12px;
+    padding-bottom: 12px;
 }
 
 img {
