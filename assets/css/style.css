@@ -18,6 +18,7 @@
 body{
     font-family: 'Raleway', sans-serif;
 }
+
 .my-3 {
     margin: 0.5rem 0;
 }
@@ -81,6 +82,7 @@ margin-bottom: 50px;
 .left {
     float: left;
     width: 30%;
+    background-image: url("./assets/img/male1.png");
 }
 
 .right {
@@ -92,7 +94,7 @@ margin-bottom: 50px;
 }
 
 img {
-   width: 120px;
+   max-width: 100%;
 }
 
 .name {
